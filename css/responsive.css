@@ -1,0 +1,128 @@
+@media only screen and (max-width: 768px) {
+
+ #hero h2{
+        font-size: 20px;
+    }
+
+   #hero .screenimg{
+    width: 100%;
+}
+
+    #hero .screenimg {
+    margin-top: 20px ;
+    }
+
+    .brandbox{
+        flex-wrap: wrap;
+    }
+
+    .brandbox img{
+        width: 150px;
+        margin: 12px;
+    }
+    
+
+    #futurearea  .col-md-6:frist-child{
+        order: 1;
+    }
+
+    .smart-design .designtext{
+        margin-top: 30px;
+    }
+
+    #whyourapp .whyushead{
+        width: 100%;
+    }
+
+
+    #testmonial {
+        background-size: 100%;
+        background-position: top;
+    }
+    
+    #testmonial .col-md-6:frist-child{
+        min-height: 450px;
+    }
+   
+
+   .testmonial-head h2{
+    margin-top: 30px;
+   }
+
+  #faq .section-head{
+     width: 100%;
+  }
+
+  .button-box a img{
+    padding-bottom: 30px;
+  }
+
+  .footermenu a{
+    padding: 10px !important;
+  }
+
+  #pricing{
+    width: 100%;
+  }
+
+  header .ms-4{
+    margin-left: 0 !important;
+  }
+
+  .mvin{
+    display: none;
+  }
+
+
+
+}
+
+@media (max-width:576px){
+
+    .mybtn {
+        background-color: #2500f9;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 25px;
+        padding: 8px 10px;
+    }
+    #hero{
+        height: 100%;
+    }
+
+    #hero h2{
+        font-size: 30px;
+    }
+
+    #hero .screenimg{
+        width: 75%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #futurearea .headarea h2,
+     #smartarea .smart-head h2,
+     #smartarea .smart-design h2,
+      #testmonial .testmonial-head h2,
+      #faq .section-head h2,
+      #download h2{
+        font-size: 30px;
+    }
+
+    footer .footermenu li{
+        display: block;
+      
+    }
+
+     footer .footermenu li a{
+        display: block;
+         padding: 10px 0px;
+     }
+
+
+
+}  
+
+
+
+

@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600&family=Prosto+One&display=swap');
+
+
+P{
+  margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: poppins;
+	font-weight: 400;
+}
+
+:root{
+	--main-color:#242f51;
+}
+
+ .mybtn{
+	background-color:#2500f9;
+	color:white;
+	font-size: 16px;
+	font-weight: 800;
+	border-radius: 25px;
+	padding: 18px 35px;
+}
+
+}
+
+.mybtn:hover{
+	background-color: #feaa25;
+	color:#fff;
+}
+
+section{
+	padding: 50px 0px 30px 0px;
+}
+
+.swhyus h4{
+	color: #242f51;
+  font-size: 20px;
+}
+
+.swhyus p{
+	color: #616368;
+
+	
+}
+
+
+
+
+/*		header start*/
+header{
+	display: flex;
+	align-items: center;
+	
+
+}
+
+header .navbar-brand{
+  font-size: 30px;
+  font-weight: 800;
+  color:#fcae61;
+}
+
+header .navbar-brand span{
+	color:var(--main-color);
+
+
+}
+
+header .nav-link{
+	color: var(--main-color);
+	margin: 0px 13px;
+	font-style: bold;
+	color: black;
+
+}
+
+header .nav-link:hover{
+	color: #fcae61;
+}
+
+/*		header end*/
+
+
+
+/*  hero section start*/
+
+
+#hero{
+	height: 90vh;
+	background-image: url(../images/Layer-5.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+#hero .htop{
+	background-color: #e2eaed;
+}
+
+#hero .htop i{
+	background-color: #feaa25;
+	padding: 12px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	margin-right: 12px;
+
+}
+
+#hero .htop p{
+	color: var(--main-color);
+}
+
+#hero h2{
+	font-size: 60px;
+	font-weight: 600;
+	color: var(--main-color);
+	margin: 30px 0px;
+}
+
+#hero P{
+	color: #616368;
+	font-size: 18px;
+}
+
+#hero .hbboox{
+	margin: 30px 0px;
+}
+
+#hero .screenimg{
+	width: 60%;
+}
+
+/*  hero section end*/
+
+
+/*ourclient section start*/
+
+#ourclien{
+	padding: 115px 0px;
+}
+
+#ourclien .title{
+	margin-bottom: 38px;
+	color: #242f51;
+}
+
+/*ourclinet sectiion end*/
+
+
+/*  futurearea start*/
+
+#futurearea .headarea{
+
+}
+
+#futurearea .headarea h2{
+	font-size: 36px;
+	font-weight: 600;
+	color: #242f51;
+}
+
+#futurearea .headarea p{
+	color: #616368;
+}
+
+/*  futurearea end*/
+
+
+   /*smart area start*/
+
+#smartarea .smar-thead{
+  padding: 50px 0px;
+}
+
+#smartarea .smart-head h2{
+  font-size: 40px;
+  font-weight: 600;
+  color: #242f51;
+}
+
+
+#smartarea .smart-head p{
+	color: #616368;
+}
+
+
+#smartarea .smart-head .col-md-6:last-child{
+	border-left: .5px solid rgba(0,0,0,0.2) ;
+	padding-left: 30px;
+}
+
+#smartarea .smart-list{
+	padding: 80px 0px;
+}
+
+
+
+#smartarea .smart-list .snlist h4{
+	color: #f55767;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 12px 0px;
+	
+}
+
+#smartarea .smart-list .snlist p{
+	color: #616368;
+}
+
+
+
+
+#smartarea .smart-list{
+	padding: 80px 0px;
+}
+
+
+#smartarea .smart-list .sdlist h4{
+	color: blue;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 12px 0px;
+	
+}
+
+#smartarea .smart-list .sdlist p{
+	color: #616368;
+}
+
+
+
+#smartarea .smart-list{
+	padding: 80px 0px;
+}
+
+
+#smartarea .smart-list .sflist h4{
+	color:green;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 12px 0px;
+	
+}
+
+#smartarea .smart-list .sflist p{
+	color: #616368;
+}
+
+
+#smartarea .smart-design{
+	padding: 50px 0px;
+}
+
+#smartarea .smart-design h2{
+	font-size: 36px;
+	font-weight: 600;
+	color: #242f51;
+}
+
+#smartarea .smart-design p{
+	color: #616368;
+	margin: 20px 0px;
+}
+
+  /*   smart area end*/
+
+
+
+/*   whyourapp area start*/
+
+
+#whyourapp{
+  
+}
+
+
+
+#whyourapp .whyushead{
+   margin-bottom: 20px;
+}
+
+#whyourapp .whyushead h2{
+  color: #242f51;
+  font-size: 36;
+  font-weight: 600;
+}
+
+#whyourapp .whyushead p{
+	color: #616368;
+
+}
+
+
+
+/*     whyourapp area end*/
+
+
+
+#ultimatefuture{
+  background-image: url(../images/Phone-copy-4.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 45%;
+
+}
+
+#ultimatefuture .ultimatehead{
+   margin-bottom: 20px;
+}
+
+#ultimatefuture .ultimatehead h2{
+  color: #242f51;
+  font-size: 36;
+  font-weight: 600;
+}
+
+#ultimatefuture .ultimatehead p{
+   color: #616368;
+}
+
+#ultimatefuture .ultimatelist{
+
+}
+
+/*     whyourapp area end*/
+
+
+
+/*pricing section start */
+
+
+#pricing .pricing-head{
+   margin-bottom: 65px;
+}
+
+#pricing .pricing-head h2{
+  color: #242f51;
+  font-size: 36;
+  font-weight: 600;
+
+}
+
+#pricing .pricing-head p{
+    color: #616368;
+}
+
+#pricing .card{
+	border: none;
+}
+
+#pricing .card .card-header{
+	padding: 40px 10px ;
+	background: linear-gradient( to bottom,#fff #f4f7f9 rgba(255,255,255),rgba(255,230,200));
+}
+
+#pricing .card .price{
+    font-size: 60px;
+    color: #242f51;
+    font-weight: 600;
+}
+
+
+#pricing .card .price span{
+   font-size: 18px;
+   color: #999ca5;
+}
+
+
+#pricing .card .h4{
+   color: 242f51;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+
+#pricing .card .p{
+  color: #999ca5;
+}
+
+#pricing .card li{
+	list-style: none;
+	color: #999ca5;
+	font-size: 16px;
+	line-height: 40px;
+}
+
+
+/*pricing section end*/
+
+/*testmonial start*/
+
+
+
+#testmonial .testmonial-item .head h2{
+   color: 242f51;
+   font-size: 40px;
+   font-weight: 600;
+}
+
+#testmonial .testmonial-item .head p{
+	color: #616368;
+}
+
+#testmonial .testmonial-item .rating i{
+   color: #ffcc00;
+}
+
+#testmonial .category{
+   
+}
+
+#testmonial .category h4{
+	color: #242f51;
+	font-size: 20px;
+	font-weight:600;
+}
+
+#testmonial .comment{
+   color: #616368;
+   font-size: 16px;
+}
+
+#testmonial .client-info{
+   display: flex;
+   justify-content:space-between;
+}
+
+#testmonial .client-info img{
+
+    height: 45px;
+    width: 45px;
+    border-radius: 40px;
+    background-color: #1a92e2;
+    border: 2px solid rgb(215, 211, 194);
+}
+
+
+#testmonial .client-info .info-box h4{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+#testmonial .client-info .info-box .name{
+  color: #242f51;
+}
+
+
+#testmonial .client-info .info-box .designation{
+    color: #616368;
+}
+
+
+
+#testmonial .client-info .toggol-box{
+   align-self: flex-end;
+}
+
+
+/*testmonial end*/
+
+/*faq start*/
+
+#faq .section-head h3{
+	text-align: center;
+   color: #242f51;
+   font-size: 40px;
+   font-weight: 600;
+}
+
+#faq .section-head p{
+	text-align: center;
+	color: #616368;
+}
+
+
+
+.accordion-button:not( .collapsed)::after{
+	background-image:url(../images/Capture2.PNG);
+}
+
+#faq .accordion-item {
+  background-color: #f5f7fa;
+  margin: 15px 0px;
+  border: none;
+}
+
+#faq .accordion-item .accordion-button{
+	background-color:#f5f7fa ;
+	color: #242f51;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+#faq .accordion-item .accordion-button:focus{
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+
+
+
+
+
+#faq .accordion-item h2{
+  color: #242f51;
+}
+
+
+
+/*faq*/
+
+
+
+/*download section start*/
+
+
+
+
+
+
+#download h2{
+  color: #242f51;
+  font-size: 43px;
+  font-weight: 600;
+}
+
+
+/*download section end*/
+
+
+/*footer section start*/
+
+
+
+footer{
+	background-color:#09142e;
+	padding: 70px;
+}
+
+footer .brand{
+	font-size:30px ;
+	font-weight:800 ;
+	color:#fcae61 ;
+}
+
+
+footer .brand span{
+	color:#fff ;
+}
+
+footer .footermenu li{
+  display: inline-block;
+}
+
+
+footer .footermenu li a{
+	font-size: 16px;
+	color: #fff;
+	padding: 10px 20px;
+}
+
+
+footer .footersocial a{
+	color:gray;
+	font-size: 30px;
+	padding: 10px ;
+	transition: 0.3s;
+}
+
+footer .footersocial a:hover{
+	color: #fff;
+}
+
+footer .copyright {
+	color:gray;
+	font-size: 14px;
+}
+
+
+
+/*footer section end*/
